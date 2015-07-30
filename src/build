@@ -1,0 +1,3 @@
+#! /bin/sh
+/home/embest/work/tools/arm-2007q3/bin/arm-none-linux-gnueabi-gcc  -o fly  main.c Network.c GroupAgent.c GeneralAgent.c MajorAgent.c  Global.c Utils/cJSON.c -lm -lpthread
+#gcc -o fly  main.c Network.c GroupAgent.c GeneralAgent.c MajorAgent.c  Global.c Utils/cJSON.c -lm -lpthread
